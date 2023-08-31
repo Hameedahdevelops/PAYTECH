@@ -23,38 +23,38 @@
                 <i class="fa-solid fa-bars menu"></i>
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#featu">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a class="login" target="_blank" href="https://lukpay.com.ng/0/login">Login</a></li>
                     </ul>
                 </nav>
             </header> 
             <div class="hero">
-                <div class="content">
+                <div id="home" class="content">
                     <div class="content-text">
-                        <h1>A technology platform that offers solutions to digital needs</h1>
-                        <p>Best possible price without compromising quality</p>
+                        <h1 class="scale-in-top ">A technology platform that offers solutions to digital needs</h1>
+                        <p class="scale-in-bottom">Best possible price without compromising quality</p>
                         <div class="btn-box">
-                            <a target="_blank" href="https://lukpay.com.ng/0/create_account">
+                            <a class="hvr-icon-forward hvr-icon slide-in-left" target="_blank" href="https://lukpay.com.ng/0/create_account">
                                 Sign Up
-                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right hvr-icon-forward hvr-icon"></i>
                             </a>
-                            <a target="_blank" href="https://lukpay.com.ng/0/login">
+                            <a class="hvr-icon-forward hvr-icon slide-in-right" target="_blank" href="https://lukpay.com.ng/0/login">
                                 Login
-                                <i class="fa-solid fa-key"></i>
+                                <i class="fa-solid fa-key hvr-icon-forward hvr-icon"></i>
                             </a>
                         </div>
                     </div>
-                    <div class="img-box">
-                        <img src="hero-img.png" alt="Image pertaining to technology">
+                    <div class="img-box ">
+                        <img class="fade-in-fwd" src="hero-img.png" alt="Image pertaining to technology">
                     </div>
                 </div>
             </div>
         </div>
     <main class="everything">
-        <section class="services">
+        <section id="services" class="services">
             <p class="our">OUR SERVICES</p>
             <h2>Some of our services</h2>
             <div class="service-box">
@@ -202,12 +202,12 @@
         <form action="" method="get">
             <h3>Our Newsletter</h3>
             <div class="inp">
-                <input class="email" type="email" name="email" placeholder="Enter your email">
+                <input tabindex="0" class="email" type="email" name="email" placeholder="Enter your email">
                 <input class="submit" type="submit" name="submit" value="Subscribe">
             </div>
         </form>
     </footer>
-    <div class="after-footer">
+    <div id="contact" class="after-footer">
         <div class="footer-card pay">
             <p class="p-head">PAYTECH</p>
             <p class="cert">Certain things are hard but accessing digital services shouldn't be one of them.</p>
@@ -238,9 +238,13 @@
             </ul>
         </div>
     </div>
-    <div class="end debug">
-        <p>© Copyright <span class="date">2023 <a href="">LUKPAY</a></span>.All Rights Reserved</p>
+    <div class="end">
+        <p>© Copyright <span class="date">2023 <a href="">PAYTECH</a></span>.All Rights Reserved</p>
         <i class="fa-solid fa-arrow-up"></i>
     </div>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>            
